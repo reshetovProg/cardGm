@@ -24,7 +24,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 40px;
+	padding: 160px;
 	font-size: 25px;
 }
 
@@ -32,8 +32,6 @@ main {
 
 	margin: auto;
 }
-
-
 
 .btn {
 	background-color: rgb(62, 65, 75);
@@ -49,4 +47,22 @@ main {
 .btn:hover {
 	scale: 1.1;
 	transition: 0.2s;
+}
+
+.game-header {
+	display: flex;
+	align-items: center;
+}
+
+.reset {
+	width: 120px;
+}
+
+.lvl {
+	flex-grow: 1;
+	text-align: left;
+}
+
+.null {
+	padding-top: 0;
 }
